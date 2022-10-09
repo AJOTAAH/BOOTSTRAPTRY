@@ -8,114 +8,194 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <title>PRINCIPIO</title>
+    <title>HOME | MAYEROS-SA</title>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <header class="row">
-            <div class="col-12 col-lg-12"></div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-12 col-lg-12">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">WALL-ON</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="navbar-brand fw-bold" href="#">WALL-ON</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./pages/origen.html">ORIGEN</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">STORE</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled">TEAM</a>
-                            </li>
-                        </ul>
+                    <div class="collapse navbar-collapse m-5 p-2 flex-grow-0" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="./pages/origen.html">ORIGEN</a>
+                            <a class="nav-link" href="./pages/matches.html">MATCHES</a>
+                            <a class="nav-link" href="./pages/equipo.html">EQUIPO</a>
+                            <a class="nav-link" href="./pages/noticias.html">NOTICIAS</a>
+                        </div>
                     </div>
                 </div>
             </nav>
-        </header>
-        <main class="row">
-            <h1>PRINCIPAL</h1>
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        </div>
+    </header>
+    <main class="container-fluid bg-dark bg-gradient bg-opacity-25">
+        <div class="row">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-dark slide"
+                data-bs-ride="carousel col-12 col-lg-12">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
                         aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/img/dust2.jpg" class="d-block w-100" alt="...">
+                        <img src="./assets/img/dust2.jpg" class="d-block w-100 imgIndexSize" alt="dust2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="fw-bold">DUST2</h5>
+                            <p>"El comienzo de un destino divertido, quisas debimos de haber jugado italy"</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/inferno.jpg" class="d-block w-100" alt="...">
+                        <img src="./assets/img/inferno.jpg" class="d-block w-100 imgIndexSize" alt="inferno">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="fw-bold">INFERNO</h5>
+                            <p>"Para que rusheas si sabes que te habian tomado el pixel Johan?"</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/mirage.jpg" class="d-block w-100" alt="...">
+                        <img src="./assets/img/mirage.jpg" class="d-block w-100 imgIndexSize" alt="mirage">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="fw-bold">MIREGE</h5>
+                            <p>"Solo lo jugamos porque a tu PC le es imposible cargar otros mapas"</p>
+                        </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            <hr>
-            <div class="col-12 col-lg-4">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eum, cupiditate molestias nam
-                    inventore rem laudantium dicta, reiciendis ea beatae, aspernatur tempora quod. Quam, beatae
-                    temporibus facere non officia quaerat reprehenderit velit reiciendis ipsam iure magnam rerum qui rem
-                    quo praesentium labore maxime, voluptas aperiam sapiente, voluptate soluta! Ipsa, molestiae. Lorem
-                    ipsum dolor sit amet consectetur adipisicing elit. Et, officia in quasi eos dolores esse sapiente
-                    eius, officiis, unde nesciunt saepe sint voluptas? Labore suscipit sapiente nesciunt, aspernatur
-                    nostrum ex.</p>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-12 mt-3 text-center text-black">
+                <h1 class="fw-bold">BIENVENIDOS AL SITIO OFICIAL DE MAYEROS-SA</h1>
             </div>
-            <div class="col-12 col-lg-4">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eum, cupiditate molestias nam
-                    inventore rem laudantium dicta, reiciendis ea beatae, aspernatur tempora quod. Quam, beatae
-                    temporibus facere non officia quaerat reprehenderit velit reiciendis ipsam iure magnam rerum qui rem
-                    quo praesentium labore maxime, voluptas aperiam sapiente, voluptate soluta! Ipsa, molestiae. Lorem
-                    ipsum dolor sit amet, consectetur adipisicing elit. Aperiam repudiandae nam, velit neque nemo
-                    voluptas ut eum animi voluptatem omnis maxime voluptate fugit quidem modi veritatis nesciunt itaque,
-                    impedit quam.</p>
+        </div>
+        <article class="row">
+            <div class="col-12 col-lg-8 fs-5 mt-4 text-black">
+                <h3 class="fw-bold border border-dark rounded">EQUIPO NACIONAL DE MEMEZUELA</h3>
+                <p>Iniciando desde el pueblo mas recondito de Venezuela, MAYEROS-SA se presenta como una oportunidad
+                    para unos 5 jovenes con muchas aspiraciones, mas alla de ganar la Eleague, desean hacer historia
+                    en
+                    el mundo del gaming competitivo, empezando desde lo mas bajo hasta lo mas alto, si una economia
+                    destrozada no los detuvo, unas cuantas partidas perdidas no lo van a hacer</p>
             </div>
-            <div class="col-12 col-lg-4">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eum, cupiditate molestias nam
-                    inventore rem laudantium dicta, reiciendis ea beatae, aspernatur tempora quod. Quam, beatae
-                    temporibus facere non officia quaerat reprehenderit velit reiciendis ipsam iure magnam rerum qui rem
-                    quo praesentium labore maxime, voluptas aperiam sapiente, voluptate soluta! Ipsa, molestiae. Lorem
-                    ipsum, dolor sit amet consectetur adipisicing elit. Neque perferendis amet nostrum voluptatem nisi
-                    sed ipsa doloremque explicabo eius est rerum, repellat ut dolores quisquam laudantium impedit maxime
-                    laboriosam enim?</p>
+            <div class="col-12 col-lg-4 mt-4 text-center text-black">
+                <h3 class="fw-bold border border-dark rounded">HISTORY MATCHES</h3>
             </div>
-        </main>
-        <hr>
-        <footer class="row">
-            <div class="col-12 col-lg-4">
-                <p>CONTACTO</p>
+        </article>
+        <article class="row">
+            <div class="col-12 col-lg-8 mt-4 text-black">
+                <h4 class="fs-5">"Puede ser que mi situacion no sea la mas favorable, pero situaciones desafortunadas
+                    nunca me
+                    han
+                    detenido para lograr lo que mas deseo"</h4>
+                <h4 class="fs-5">-Haruki Murakami</h4>
             </div>
-            <div class="col-12 col-lg-4">
-                <P>RRSS</P>
+        </article>
+        <article class="row">
+            <div class="col-12 col-lg-8 fs-5 mt-4 text-black">
+                <h3 class="fw-bold border border-dark rounded">CONSTRUYENDO SUEÑOS</h3>
+                <p>En la historia de un pais donde el alzamiento de un equipo de esports tiene mayor probalidad
+                    que la mejoria del propio pais</p>
             </div>
-            <div class="col-12 col-lg-4">
-                <P>PARTNERS</P>
+        </article>
+        <article class="row">
+            <div class="col-12 col-lg-8 mt-4 mb-5 text-black">
+                <h4 class="fs-5">"Como dicen estos muchachos, Marico el que lo lea"</h4>
+                <h4 class="fs-5">-George Orwell</h4>
             </div>
-        </footer>
-    </div>
+        </article>
+        <article class="row">
+            <div class="col-12 col-lg-6">
+                <div id="carouselExampleControls" class="carousel slide mb-5" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/img/9z.jpg" class="d-block imgSecIndex" alt="9z">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/gradas.jpg" class="d-block imgSecIndex" alt="gradas">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/torneocsgo.jpg" class="d-block imgSecIndex" alt="torneocsgo">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 fs-5 mt-4 text-black">
+                <h3 class="fw-bold border border-dark rounded text-center">PRIMERA PERSONA DEL SINGULAR</h3>
+                <p class="text-center">Hay una pequeña posibilidad para cada equipo y jugadores por individual, para destacar entre
+                    la multitud, multitud de sueños, multitud de aspirantes que apuntan a la luna, pero que muy
+                    pocos atinan de las estrellas. Parecen ser una anomalia dentro de esta estadistica, es la 
+                    primera vez en la historia que podemos divisar algo asi.
+                </p>
+                <h4 class="fs-5">"Hemos de considerarno afortunados, como una rosa no vuelve a la vida el mismo petalo no cae dos veces,
+                    dentro de todas las posibilidades podemos deslumbarnos con las hazañas de este valeroso equipo, cuanto tiempo
+                    tendra que pasar para que volvamos a ver otra anomalia como esta"</h4>
+                    <h4 class="fs-5">- Obra de la causalidad misma</h4>
+            </div>
+        </article>
+    </main>
+    <footer class="container-fluid bg-dark">
+        <div class="row">
+            <div class="col-12 col-lg-4 text-center text-light">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid flex-column">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav flex-column">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" href="#">Features</a>
+                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="nav-link disabled">Disabled</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-12 col-lg-4 text-center text-light">
+                <p>RRSS</p>
+            </div>
+            <div class="col-12 col-lg-4 text-center text-light">
+                <p>PARTNERS</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-12 text-center text-light">
+                <p>Derechos reservados</p>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
