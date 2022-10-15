@@ -13,3 +13,28 @@
 .boderMatches {
   border: solid;
   border: 2px; }
+
+.cardPosi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.equipoImg {
+  width: 290px;
+  height: 250px; }
+
+.bgGame1 {
+  background-image: url(../assets/img/dust2.jpg);
+  padding: 50px; }
+
+.bgGame2 {
+  background-image: url(../assets/img/inferno.jpg);
+  padding: 50px; }
+
+.bgGame3 {
+  background-image: url(../assets/img/mirage.jpg);
+  padding: 50px; }
+
+.gameTextPosi {
+  position: relative;
+  left: 110px; }
