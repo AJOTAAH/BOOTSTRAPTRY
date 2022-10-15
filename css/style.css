@@ -9,3 +9,7 @@
 .imgOrigenMain {
   width: 600px;
   height: 400px; }
+
+.boderMatches {
+  border: solid;
+  border: 2px; }
